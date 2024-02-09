@@ -1,0 +1,26 @@
+* {
+	font-family: 'Protest Riot', sans-serif;
+}
+
+#flashing {
+	text-align: center;
+	font-size: 48px;
+	text-transform: uppercase;
+	animation: rainbow 4s infinite;
+}
+
+@keyframes rainbow {
+	0% { color: #42b883; } 
+	20% { color: #347474; }
+	40% { color: #35495e; }
+	60% { color: #ff7e67; }
+	80% { color: #35495e; }
+	100% { color: #347474; }
+}
+
+.lorem {
+	margin: 198px 100px;
+	color: #12305a;
+	line-height: 30px;
+	font-size: 20px;
+}
